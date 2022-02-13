@@ -42,7 +42,7 @@ The file gen_sud.py is for generating a pair of Sudokus of given size.
 
    - pip install python-sat
 
-   To compile and run the given python file, use the following command in command line within the given folder �
+   To compile and run the given python file, use the following command in command line within the given folder.
 
    - python gen_sud.py k
 
