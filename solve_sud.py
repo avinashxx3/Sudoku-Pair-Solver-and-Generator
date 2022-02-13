@@ -122,12 +122,12 @@ def main():
 
 
     #time() to measure the time taken to solve the 2 sudokus
-    #start = time.time()
+    start = time.time()
     #take answer in already declared grid
     grid = solve_sudoku(grid,N)
-    #end = time.time()
-    #if grid:
-        #print("Time: "+str(end - start))
+    end = time.time()
+    if grid:
+        print("Time: "+str(end - start))
 
     #write the combined grid to the csv file
     file_name = "output_a/output_" + str(N) + ".csv" 

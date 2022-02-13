@@ -151,12 +151,12 @@ def main():
         exit(1)
 
     #time() to measure the time taken to generate
-    #start = time.time()
+    start = time.time()
     #generating 2 grids
     grid_1 = gen_sud(N)
     grid_2 = gen_sud(N)
-    #end = time.time()
-    #print("Time: "+str(end - start))
+    end = time.time()
+    print("Time: "+str(end - start))
 
     #write the 1st grid to csv file
     with open("output_b/output.csv", "w", newline="") as f:
